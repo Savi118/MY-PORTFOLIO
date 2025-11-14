@@ -100,7 +100,9 @@ const Skills = () => {
               "Debugging & Optimization",
               "Clean Code + Best Practices",
               "Project Management",
-              "Leadership"
+              "Leadership",
+              "English Communication",
+              "Japanese N5 Level"
             ]}
           />
         </div>

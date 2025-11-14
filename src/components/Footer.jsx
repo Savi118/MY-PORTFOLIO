@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Github, Linkedin, Mail, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -55,7 +55,6 @@ const Footer = () => {
               icon: Instagram,
               link: "https://www.instagram.com/core.hustler118/?igsh=NDJ5eGY0YTg5YXdz&utm_source=qr#",
             },
-            { icon: Mail, link: "mailto:sakshamviraj2004@gmail.com" },
           ].map(({ icon, link }, idx) => {
             const Icon = icon; // <- Fix: explicitly using Icon inside a block
             return (
