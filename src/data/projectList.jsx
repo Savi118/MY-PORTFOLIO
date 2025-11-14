@@ -101,7 +101,7 @@ const projectList = [
     },
     learnings:
       "Became proficient with Framer Motion, component organization, and responsive UI patterns.",
-    demo: "",
+    demo: "https://sakshamportfolio-six.vercel.app/projects",
     github: "https://github.com/Savi118/MY-PORTFOLIO",
   },
 
