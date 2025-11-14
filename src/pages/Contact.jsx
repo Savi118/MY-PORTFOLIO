@@ -86,7 +86,7 @@ const Contact = () => {
               />
               <SocialIcon
                 icon={<Linkedin size={22} />}
-                link='https://linkedin.com/'
+                link='https://www.linkedin.com/in/saksham-viraj-188071285/'
               />
             </div>
           </motion.div>
