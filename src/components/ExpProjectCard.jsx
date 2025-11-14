@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
-const ProjectCard = ({ title, description, link, image }) => {
+const ExpProjectCard = ({ title, description, link, image }) => {
   return (
     <motion.div
       whileHover={{
@@ -35,4 +35,4 @@ const ProjectCard = ({ title, description, link, image }) => {
     </motion.div>
   );
 };
-export default ProjectCard;
+export default ExpProjectCard;

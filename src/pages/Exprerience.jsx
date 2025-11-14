@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { Calendar, ExternalLink } from "lucide-react";
-import ProjectCard from "../components/ProjectCard";
 import TimelineItem from "../components/TimelineItem";
+import ExpProjectCard from "../components/ExpProjectCard";
 
 const Experience = () => {
   return (
@@ -30,21 +29,21 @@ const Experience = () => {
             description='Worked as a Full Stack Development Intern, building three end-to-end real-world projects from scratch with clean architecture, optimized logic, and professional deployment workflows.'
           >
             {/* PROJECTS UNDER COGNIFYZ */}
-            <ProjectCard
+            <ExpProjectCard
               title='NextGen Studio'
               description='An AI-powered digital solutions studio offering UI/UX, full-stack development, and intelligent web services. I built a server-side rendered landing site using Express, Node.js, EJS, Tailwind CLI, and MVC architecture. Added form validations and secure contact submission handling.'
               link='https://nextgen-studio.onrender.com/'
               image='/images/experience/NG-S.png'
             />
 
-            <ProjectCard
+            <ExpProjectCard
               title='QuizX'
               description='A full quiz platform where users can register, log in, attempt quizzes across Basic, Intermediate, and Advanced levels, and track rankings through a leaderboard. Built using Express, MongoDB (Mongoose), EJS, Tailwind, and MVC structure with full authentication and session handling.'
               link='https://quizx-ltkr.onrender.com/about'
               image='/images/experience/QX.png'
             />
 
-            <ProjectCard
+            <ExpProjectCard
               title='BookVault'
               description='A MERN-stack book management platform where users can maintain a personal library, track reading status, add books, explore other users’ collections, and manage a wishlist. Built with MongoDB, Express, Node.js, React, Tailwind, Redux tools, hooks, Axios, and toast notifications.'
               link='https://book-vault-nlsf.vercel.app/about'
@@ -58,14 +57,14 @@ const Experience = () => {
             date='Nov 2025 — Remote'
             description='Assigned to multiple UI-focused and full-stack projects, designing, structuring, and developing applications with attention to detail, animation, and modern frontend workflows.'
           >
-            <ProjectCard
+            <ExpProjectCard
               title='Personal Portfolio (Ongoing)'
               description='A fully custom personal portfolio built using React, React Router, TailwindCSS, Framer Motion animations, and Vite for optimal performance — this very portfolio you’re viewing.'
               link=''
               image='/images/experience/PP.png'
             />
 
-            <ProjectCard
+            <ExpProjectCard
               title='Team India Cricket Fan Page'
               description="A tribute platform showcasing India's cricket achievements, stats, and historical milestones. Designed and built using the same modern frontend stack for clean UI and smooth performance."
               link=''
