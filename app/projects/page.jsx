@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { connectDB } from "@/lib/db";
 import Project from "@/models/Project";
 import ProjectsClient from "./ProjectsClient";

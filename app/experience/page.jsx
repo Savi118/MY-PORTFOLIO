@@ -1,4 +1,5 @@
-// app/experience/page.jsx
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 import { connectDB } from "@/lib/db";
 import Experience from "@/models/Experience";

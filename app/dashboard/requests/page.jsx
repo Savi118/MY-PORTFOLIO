@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { connectDB } from "@/lib/db";
 import ServiceRequest from "@/models/ServiceRequest";
 import Service from "@/models/Service";
