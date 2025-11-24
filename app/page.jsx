@@ -7,19 +7,25 @@ import HomeClient from "./HomeClient";
 export default async function Home() {
   await connectDB();
 
+  // Settings (includes highlightProject ID)
   const settings = await Settings.findOne();
+
+  // Highlight Project
   const highlightProject = settings?.highlightProjectId
     ? await Project.findById(settings.highlightProjectId)
     : null;
 
-  const totalProjects = await Project.countDocuments();
+  // Project Count
+  const projectsCount = await Project.countDocuments();
+
+  // Current Role
   const currentRole = await Experience.findOne({ end: "Present" });
 
   return (
     <HomeClient
       settings={JSON.parse(JSON.stringify(settings))}
       highlightProject={JSON.parse(JSON.stringify(highlightProject))}
-      totalProjects={totalProjects}
+      projectsCount={projectsCount}
       currentRole={JSON.parse(JSON.stringify(currentRole))}
     />
   );
